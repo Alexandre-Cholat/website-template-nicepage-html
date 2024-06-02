@@ -508,7 +508,7 @@
 .u-section-3 .u-image-1 {
   width: 482px;
   height: 482px;
-  background-image: url("images/A\ highly\ realistic\ image\ of\ a\ large\ white\ moving\ truck\ with\ only\ \'gentlemanmoving.com\'\ cinematic.webp");
+  background-image: url("images/furniture-assembly-DALLE.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -1098,6 +1098,9 @@
   .u-section-6 .u-text-2 {
     width: 720px;
   }
+  .u-section-6 .u-image-1 { 
+    width: 300px; 
+    height: 300px; }
 }
 
 @media (max-width: 767px) {
