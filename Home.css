@@ -508,7 +508,7 @@
 .u-section-3 .u-image-1 {
   width: 482px;
   height: 482px;
-  background-image: url("images/furniture-assembly-DALLE.webp");
+  background-image: url("images/A\ highly\ realistic\ image\ of\ a\ large\ white\ moving\ truck\ with\ only\ \'gentlemanmoving.com\'\ cinematic.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -1066,6 +1066,7 @@
   padding: 0;
 }
 
+
 .u-section-6 .u-text-1 {
   width: 751px;
   margin: 30px auto 0;
@@ -1077,16 +1078,16 @@
 }
 
 .u-section-6 .u-image-1 {
-  width: 103px;
-  height: 103px;
-  background-image: url("images/Circle-crop-profile-pic.png");
+  width: 482px;
+  height: 482px;
+  background-image: url("images/eco-friendly-move0.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 30px auto 60px;
+  margin: 0 auto;
 }
 
 @media (max-width: 991px) {
