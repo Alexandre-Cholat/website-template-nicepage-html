@@ -1,4 +1,31 @@
- .u-section-1 {
+/* changes to accomodate header logo */
+
+.u-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.u-logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.u-logo img {
+  height: 40px; /* Adjust as necessary */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.u-nav-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Ensures the navigation items are on the right */
+}
+
+
+.u-section-1 {
   background-image: none;
 }
 
