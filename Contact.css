@@ -1,3 +1,31 @@
+/* Collapsed menu logo styling */
+.u-logo-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Space between the top of the page and the logo */
+  margin-bottom: 20px; /* Space between the logo and menu items */
+}
+
+.u-logo-mobile img {
+  height: 40px; /* Adjust as necessary */
+  width: auto; /* Maintain aspect ratio */
+}
+/* New SVG graphic styling */
+.u-footer-logo-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Space above the graphic */
+  padding-bottom: 20px; /* Space below the graphic */
+}
+
+.footer-graphic {
+  width: 100%; /* Ensures the graphic fills the width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 
 .u-section-1 {
   background-image: none;

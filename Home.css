@@ -1,28 +1,33 @@
-/* changes to accomodate header logo */
-
-.u-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-.u-logo {
-  flex-grow: 1;
+/* Collapsed menu logo styling */
+.u-logo-mobile {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Space between the top of the page and the logo */
+  margin-bottom: 20px; /* Space between the logo and menu items */
 }
 
-.u-logo img {
+.u-logo-mobile img {
   height: 40px; /* Adjust as necessary */
   width: auto; /* Maintain aspect ratio */
 }
-
-.u-nav-container {
+/* New SVG graphic styling */
+.u-footer-logo-mobile {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: auto; /* Ensures the navigation items are on the right */
+  padding-top: 20px; /* Space above the graphic */
+  padding-bottom: 20px; /* Space below the graphic */
 }
+
+.footer-graphic {
+  width: 100%; /* Ensures the graphic fills the width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
 
 
 .u-section-1 {
@@ -545,6 +550,19 @@
   margin: 0 auto;
 }
 
+.u-section-3 .u-image-9 {
+  width: 482px;
+  height: 482px;
+  background-image: url("images/recycling-moving-couch.webp");
+  background-position: 50% 50%;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  margin: 0 auto;
+}
+
 .u-section-3 .u-layout-cell-2 {
   min-height: 542px;
 }
@@ -596,6 +614,11 @@
     height: 410px;
   }
 
+  u-section-3 .u-image-9 {
+    width: 410px;
+    height: 410px;
+  }
+
   .u-section-3 .u-layout-cell-2 {
     min-height: 447px;
   }
@@ -611,6 +634,11 @@
   }
 
   .u-section-3 .u-image-1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .u-section-3 .u-image-9 {
     width: 300px;
     height: 300px;
   }
@@ -1107,7 +1135,7 @@
 .u-section-6 .u-image-1 {
   width: 482px;
   height: 482px;
-  background-image: url("images/eco-friendly-move0.webp");
+  background-image: url("images/cluttered-garage-gm.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;

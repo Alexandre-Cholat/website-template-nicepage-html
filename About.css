@@ -1,9 +1,40 @@
+/* Collapsed menu logo styling */
+.u-logo-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Space between the top of the page and the logo */
+  margin-bottom: 20px; /* Space between the logo and menu items */
+}
+
+.u-logo-mobile img {
+  height: 40px; /* Adjust as necessary */
+  width: auto; /* Maintain aspect ratio */
+}
+/* New SVG graphic styling */
+.u-footer-logo-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Space above the graphic */
+  padding-bottom: 20px; /* Space below the graphic */
+}
+
+.footer-graphic {
+  width: 100%; /* Ensures the graphic fills the width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
 .u-section-1 .u-sheet-1 {
   min-height: 400px;
 }
 
 .u-section-1 {
   background-image: none;
+  padding-top: 400px;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -24,7 +55,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 3.75rem;
+  font-size: 1.75rem;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -512,7 +543,7 @@
 .u-section-3 .u-image-1 {
   width: 482px;
   height: 482px;
-  background-image: url("images/g-redhead-20s-girl-with-freckles-long-hair-smiling-joyfully-with-faith-eyes-prominent-look-posing-against-purple-background.jpg");
+  background-image: url("images/recycling-moving-couch.webp");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
