@@ -98,13 +98,17 @@
 }
 
 .u-section-1 .u-image-1 {
-  height: 513px;
+  /* height: 513px; */
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   margin: 0;
+
+  width: 100%;  /* Make the image width responsive */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for animations */
 }
 
 @media (max-width: 1199px) {
@@ -132,7 +136,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 415px;
+    /* height: 415px; */
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -162,7 +167,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 307px;
+    /* height: 307px; */
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -201,7 +207,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 511px;
+    /* height: 511px; */
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
@@ -231,7 +238,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 314px;
+    /* height: 314px; */
+    height: auto;
     margin-right: initial;
     margin-left: initial;
   }
